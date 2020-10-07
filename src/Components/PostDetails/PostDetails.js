@@ -54,7 +54,7 @@ const PostDetails = () => {
         <Card className={classes.root} variant="outlined">
       <CardContent>
         <Typography className={classes.title} color="textSecondary" gutterBottom>
-         <h2>Details:</h2>
+         <h2>Post Details:</h2>
          <br/>
          No: {details.id}
         </Typography>

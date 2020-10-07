@@ -12,13 +12,13 @@ const Comment = (props) => {
             
            <ul style={styles}>
                {
-                   <li>{props.comments.id}
+                   <li> user Id: {props.comments.id}
                    <br/>
-                   Name: {props.comments.name}
+                   <strong>Name:</strong> {props.comments.name}
                    <br/>
-                   {props.comments.email}
+                   <strong>Email:</strong> {props.comments.email}
                    <br/>
-                   {props.comments.body}
+                    <strong>Body:</strong> {props.comments.body}
                    </li>
                }
            </ul>
